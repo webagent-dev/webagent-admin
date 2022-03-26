@@ -1,0 +1,27 @@
+.sidebar__container{
+        min-width: 20vw;
+        padding: 20px;
+        font-weight: 700;
+        color: #bebdbd;
+        margin-top: 25px;
+}
+.taps{
+    padding: 15px 0px;
+}
+.link__wrapper{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+}
+.link__wrapper:hover{
+    background: rgba(241, 238, 238, 0.226);
+}
+.link__wrapper > span{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+}

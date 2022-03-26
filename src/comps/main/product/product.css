@@ -1,0 +1,118 @@
+.product__container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.product__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product__wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.first__card{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.card__one{
+    background: white;
+       box-shadow: 0px 0px 2px 2px whitesmoke !important;
+         padding: 20px;
+         border-radius: 5px;
+         height: 200px;
+}
+
+.second__card{
+        background: white;
+       box-shadow: 0px 0px 2px 2px whitesmoke !important;
+             padding: 20px;
+             border-radius: 5px;
+             height: 280px;
+             margin-top: 30px;
+}
+.second__detail{
+    margin-top: 15px;
+}
+.second__container{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+.second__container > h2{
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 0px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second__container > h3{
+    color: gray;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.second__card{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-around;
+}
+.product__detail{
+        font-weight: 700;
+    color: rgba(141, 127, 127, 0.603) !important;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product__detail > h2{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.product__detail > h5{
+    font-size: 14px;
+    padding: 3px 0px;
+}
+.underline{
+    width: 200px;
+    height: 2px;
+    background: rgba(141, 127, 127, 0.603);
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    padding: 8px 0px;
+}
+select{
+    width: 200px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(141, 127, 127, 0.603);
+    border-radius: 3px;
+}
+.product__image__container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 40px;;
+}
+.product__image__wrapper{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    background: black;
+}
+.product__image__wrapper > img{
+    width: 100%;
+    object-fit: contain;
+      border-radius: 10px;
+}
